@@ -18,7 +18,7 @@ Create a new conda environment and activate it:
 conda create -n mvs
 conda activate mvs
 ```
-Install requirements.txt and pytorch separately (make sure pip is installed):
+Install requirements.txt and opencv & pytorch separately (make sure pip is installed):
 ```sh
 pip install -r requirements.txt
 pip install opencv-python
