@@ -18,9 +18,10 @@ Create a new conda environment and activate it:
 conda create -n mvs
 conda activate mvs
 ```
-Install requirements.txt:
+Install requirements.txt and pytorch separately:
 ```sh
-conda install --file requirements.txt
+pip install -r requirements.txt
+pip install torch==1.8.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
 # Data
