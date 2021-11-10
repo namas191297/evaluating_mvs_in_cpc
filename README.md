@@ -73,7 +73,7 @@ python pfm2ply_aligned.py                   # Point Clouds from Estimated Depthm
 python pfm2ply_aligned_gt.py                # Point Clouds from Ground Truth Depthmaps
 ```
 
-The point clouds will be saved in the **ply** and **ply_gt** image subdirectories respectively as .ply files along with the vertices of these point clouds saved as vertices.npy. This also generates the aligned absolute depthmap and saves the visualization along with the monocular depthmap estimated via the monocular depth estimation network. 
+The point clouds will be saved in the **ply** and **ply_gt** image subdirectories respectively as .ply files along with the vertices of these point clouds saved as vertices.npy. This also generates the aligned absolute depthmap and saves the visualization along with the monocular depthmap estimated via the monocular depth estimation network inside the image directories. 
 
 ### 4. Generating Scene Point Clouds
 
