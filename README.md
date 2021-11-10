@@ -25,7 +25,7 @@ conda install --file requirements.txt
 
 # Data
 
-Download the validation dataset extracted from MegaDepth dataset [here](https://drive.google.com/file/d/1WvmEYiduKSCVFcFzFqLuF1IQdgVmJZE9/view?usp=sharing) and extract the dataset to **ref_images** folder.
+Download the validation dataset extracted from MegaDepth dataset [here](https://drive.google.com/file/d/1WvmEYiduKSCVFcFzFqLuF1IQdgVmJZE9/view?usp=sharing) and extract the dataset to **ref_images** folder (create one if it doesn't exist).
 
 # Usage
 
