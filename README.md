@@ -8,7 +8,7 @@ This repository contains the set of artficats used for the ENGN8601/8602 researc
 
 # Installation
 
-Recommended: python 3.7.7 and conda.
+Recommended: python 3.7.7, cudatoolkit 10.2.* and conda.
 
 The python libraries required are provided in the requirements.txt file. You can install the environment and necessary modules as follows or use your own approach:
 
