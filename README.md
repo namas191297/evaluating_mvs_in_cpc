@@ -27,7 +27,7 @@ pip install torch==1.8.0+cu111 -f https://download.pytorch.org/whl/torch_stable.
 
 # Data
 
-Download the validation dataset extracted from MegaDepth dataset [here](https://drive.google.com/file/d/1WvmEYiduKSCVFcFzFqLuF1IQdgVmJZE9/view?usp=sharing) and extract the dataset to **ref_images** folder (create one if it doesn't exist).
+Download the validation dataset extracted from MegaDepth dataset [here](https://drive.google.com/file/d/1WvmEYiduKSCVFcFzFqLuF1IQdgVmJZE9/view?usp=sharing) and extract the all the images from the dataset to **ref_images** folder as subdirectories (create **ref_images** if it doesn't exist).
 
 # Usage
 
