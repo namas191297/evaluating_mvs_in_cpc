@@ -34,7 +34,9 @@ Download the validation dataset extracted from MegaDepth dataset [here](https://
 All the results have been included in the downloaded dataset already for ease of access to the results. The directory structure is given and explained as follows. The image subdirectories include reference images, npy files containing camera information, entropies, depthmaps (monocular, estimated and ground truth) etc. 
 
 final\_fused\_scenes/
+
 ref_images/
+
 |_ image_2/
 |____ grid_outputs   
 |____ ply
