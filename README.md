@@ -33,16 +33,6 @@ Download the validation dataset extracted from MegaDepth dataset [here](https://
 
 All the results have been included in the downloaded dataset already for ease of access to the results. The directory structure is given and explained as follows. The image subdirectories include reference images, npy files containing camera information, entropies, depthmaps (monocular, estimated and ground truth) etc. 
 
-final\_fused\_scenes/
-
-ref_images/
-
-|_ image_2/
-|____ grid_outputs   
-|____ ply
-|____ ply_gt
-
-
 
 - All the images inside the  **ref_images** directory contain a **grid_outputs** subdirectory which contain the best masks estimated for the reference image. This subdirectory also contains the plots with the .npy files for visualization.
 - All the images inside the  **ref_images** directory contain **ply** and **ply_gt** subdirectories, which contain the 3D world points and .ply files depicting the estimated point cloud of that scene reconstructed by the proposed method.  
